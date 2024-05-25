@@ -1490,9 +1490,6 @@ export class DirListing extends Widget {
       }
     }
     event.preventDefault();
-    for (let i = 0; i < files.length; i++) {
-      void this._model.upload(files[i]);
-    }
   }
 
   /**
